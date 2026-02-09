@@ -10,7 +10,6 @@
  * 
  * @returns {Array<Number>} - отсортированный по частоте массив чисел
  */
-
 const sortByFrequency = numbers => {
     const frequency = new Map();
     numbers.forEach(number => {
@@ -23,4 +22,3 @@ const sortByFrequency = numbers => {
         return val1 - val2;
     });
 };
-
