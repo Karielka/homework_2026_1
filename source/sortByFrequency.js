@@ -19,7 +19,7 @@ const sortByFrequency = numbers => {
 
     return [...numbers].sort((val1, val2) => {
         let diff = frequency.get(val2) - frequency.get(val1);
-        if (diff !== 0) return razn;
+        if (diff !== 0) return diff;
         return val1 - val2;
     });
 };
